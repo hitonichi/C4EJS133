@@ -47,6 +47,8 @@ const formValidation = () => {
     }
 }
 
+localStorage.setItem()
+
 const addTask = () => {
     let newTask = {};
     newTask['content'] = formInput.value;
